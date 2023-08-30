@@ -1,6 +1,7 @@
 backend:
   name: github
   repo: gmoranxyz/goviverse-site
+  open_authoring: true
   accept_roles:
     - admin
     - editor
