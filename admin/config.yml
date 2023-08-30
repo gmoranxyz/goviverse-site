@@ -10,6 +10,7 @@ backend:
   branch: master
 media_folder: theme/assets/images
 public_folder: /assets/images
+logo_url: https://fil-foundation.on.fleek.co/logos/FF/SVG%20%28Vector%20-%20Web%29/FF_Wordmark_Vertical_Blue.svg
 collections:
   - name: pages
     label: Pages
@@ -98,11 +99,6 @@ collections:
         widget: string
         required: true
       - hint: ''
-        name: created-on
-        label: Created On
-        widget: datetime
-        required: false
-      - hint: ''
         name: f_submission
         label: Submission
         widget: text
@@ -120,7 +116,7 @@ collections:
         widget: hidden
         name: layout
         default: '[contributions].html'
-      - label: Publish Date
+      - label: Submission Date
         name: date
         widget: datetime
       - *ref_0
