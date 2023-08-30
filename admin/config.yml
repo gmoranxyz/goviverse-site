@@ -103,16 +103,6 @@ collections:
         widget: datetime
         required: false
       - hint: ''
-        name: updated-on
-        label: Updated On
-        widget: datetime
-        required: false
-      - hint: ''
-        name: published-on
-        label: Published On
-        widget: datetime
-        required: false
-      - hint: ''
         name: f_submission
         label: Submission
         widget: text
