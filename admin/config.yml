@@ -48,5 +48,4 @@ collections:
       - label: Submission Date
         name: date
         widget: datetime
-      - *ref_0
 publish_mode: editorial_workflow
